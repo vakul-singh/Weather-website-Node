@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>About</title>
-        <link rel="icon" href="/img/weather.png">
-        <link rel="stylesheet" href="/css/styles.css">
-        
-            
-    </head>
 
-    <body>
-        <div class="main-content">
-            {{>header}}
-            <img class="portrait" src="/img/me.jpeg">
-            <p id=myself>Hi i am a prefinal year student looking for internship</p>
+<head>
+    <title>About</title>
+    <link rel="icon" href="/img/weather.png">
+    <link rel="stylesheet" href="/css/styles.css">
 
-        </div>
-        {{>footer}}
-    </body>
-    <p id='creator'>Created by Vakul Singh</p>
+
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <img class="portrait" src="/img/me.jpeg">
+        <p id=myself>Hi this site is created by Vakul Singh.I am a pre-final year student looking for internship.
+            This site uses data from mapbox.com and darksky.net to convert the location entered by the user into
+            location co-ordinates(latitude,longitude), then it uses those co-ordinate to give weather
+            information.</p>
+
+    </div>
+    {{>footer}}
+</body>
+<p id='creator'>Created by Vakul Singh</p>
+
 </html>

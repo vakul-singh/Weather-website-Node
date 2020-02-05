@@ -1,92 +1,95 @@
-body    {
-    color :#333333;
-    font-family:arial;
-    max-width : 650px;
-    margin :0 auto;
-    padding : 0 16px;
+body {
+  color: #333333;
+  font-family: arial;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px;
 
-    display:flex;
-    flex-direction: column;
-    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-.main-content   {
-    flex-grow:1;
+.main-content {
+  flex-grow: 1;
 }
 
-footer  {
-    color:  #888888;
-    border-top :1px solid #eeeeee;
-    /* background:blue; */
-    margin-top: 13px;
-    margin-bottom: 13px;
-    padding :16px 0;
-    font-size:  20px;
+footer {
+  color: #888888;
+  border-top: 1px solid #eeeeee;
+  /* background:blue; */
+  margin-top: 13px;
+  margin-bottom: 13px;
+  padding: 16px 0;
+  font-size: 20px;
 }
 
-header  {
-    margin-top:16px;
-    margin-bottom:48px;
+header {
+  margin-top: 16px;
+  margin-bottom: 48px;
 }
 
-h1  {
-    font-size:  64px;
-    margin-bottom:  16px;
+h1 {
+  font-size: 64px;
+  margin-bottom: 16px;
 }
 
 header a {
-    color: #888888;
-    margin-right: 16px;
-    text-decoration: none;
+  color: #888888;
+  margin-right: 16px;
+  text-decoration: none;
+  font-size: 24px;
 }
 
 .portrait {
-    width:250px;
+  width: 250px;
 }
 
-.creatorsInfo  {
-    text-decoration: none; 
-    color: #af8585;
-    margin-top: 16px;
-    float: right;
-    font-size:  17px;
+.creatorsInfo {
+  text-decoration: none;
+  color: #af8585;
+  margin-top: 16px;
+  float: right;
+  font-size: 17px;
 }
 
-.resume  {
-    text-decoration: none; 
-    text-align:right;
-    font-size:  20px;
-    float: right;
-    margin-top: 16px;
+.resume {
+  text-decoration: none;
+  text-align: right;
+  font-size: 20px;
+  float: right;
+  margin-top: 16px;
 }
 
 footer a div {
-    /* color: #888888; */
-    margin-right: 12px;
-    text-decoration: none;
+  /* color: #888888; */
+  margin-right: 12px;
+  text-decoration: none;
 }
-input{
-    border:1px solid #cccccc;
-    padding:8px;
-    border-radius:25px;
+input {
+  border: 1px solid #cccccc;
+  padding: 8px;
+  border-radius: 25px;
 }
-button{
-    cursor:pointer;
-    border:1px solid #888888;
-    background:#b60808;
-    color:white;
-    padding: 8px;
-    border-radius:15px;
+button {
+  cursor: pointer;
+  border: 1px solid #888888;
+  background: #b60808;
+  color: white;
+  padding: 8px;
+  border-radius: 15px;
 }
-#myself{
-    margin-top:10px;
+#myself {
+  margin-top: 10px;
+  font-size: 22px;
+  color: #af9a9a;
 }
 
-.weather_icon{
-    max-width : 100px;
-    border-radius:50px;
+.weather_icon {
+  max-width: 100px;
+  border-radius: 50px;
 }
-#creator{
-    font-size:  22px;
-    color:  #867373;
+#creator {
+  font-size: 22px;
+  color: #867373;
 }
